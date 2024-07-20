@@ -1,0 +1,41 @@
+body {
+    background: #000;
+    color: white;
+}
+
+.image_box {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.image_box #img1 {
+    height: 200xpx;
+    width: 300px;
+    margin-right: 20px;
+}
+
+.image_box #img2 {
+    height: 300xpx;
+    width: 265px;
+    margin-right: 20px;
+}
+
+.image_box #img3 {
+    height: 205xpx;
+    width: 205px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+hr {
+    color: white;
+}
+
+p {
+    color: aquamarine;
+}
