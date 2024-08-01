@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.box {
+    height: 400px;
+    width: 250px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.box h1, .box p {
+    padding: 10px;
+}
+
+.box button {
+    margin-left: 80px;
+}
+
+.box1, .box4 {
+    width: 125px;
+}
+
+.box1 button, .box4 button {
+    margin-left: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.box1 img, .box4 img, .box1 picture, .box4 picture{
+    width: inherit;
+    height: 30%;
+}
+
+img, picture {
+    width: inherit;
+    height: 60%;
+}
+
+button {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
