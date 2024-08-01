@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            margin: 30px;
+            background-color: aqua;
+        }
+
+        .part1 {
+            color: aliceblue;
+            background-color: black;
+            padding: 20px;
+        }
+
+        .part1::after {
+            content: '';
+            clear: both;
+            display: block;
+        }
+
+        .logo {
+            float: left;
+            margin-right: 350px;
+        }
+
+        .logo h1 {
+            font-weight: 400;
+            font-size: x-large;
+        }
+
+        .links {
+            float: left;
+            margin-top: 5px;
+        }
+
+        .links a {
+            text-decoration: none;
+            color: white;
+            font-size: large;
+            margin-right: 30px;
+        }
+
+        .btn {
+            float: right;
+            margin-top: 5px;
+            background-color: aqua;
+            border: none;
+        }
+
+        .btn a {
+            text-decoration: none;
+            color: aliceblue;
+            font-size: large;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="part1">
+        <div class="logo">
+            <h1>LOGOBAKERY</h1>
+        </div>
+        <div class="links">
+            <a href="#">Service</a><a href="#">Project</a><a href="#">About</a>
+        </div>
+        <div class="btn">
+            <a href="#">Contact</a>
+        </div>
+    </div>
+</body>
+
+</html>
