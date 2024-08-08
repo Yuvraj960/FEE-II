@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modernizr</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: aliceblue;
+            margin: 0;
+            padding: 0;
+        }
+
+        footer {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+        }
+
+        nav {
+            background-color: #fff;
+        }
+
+        .ourcard {
+            background-color: #fff;
+            margin: 15px 10px;
+        }
+
+        .footer-icon {
+            position: absolute;
+            top: 35px;
+        }
+
+        .ourcard hr {
+            color: #f8f9fa;
+        }
+
+        .ourcard h3 {
+            padding-top: 10px;
+        }
+
+        .container-content {
+            margin: 0 50px;
+        }
+
+        @media (max-width: 768px) {
+            .container-content {
+                margin: 0 15px;
+            }
+
+            .ourcard {
+                margin: 15px 0;
+            }
+        }
+
+        .footer-content {
+            text-align: center;
+        }
+
+        .footer-icon {
+            position: absolute;
+            right: 50px;
+        }
+
+        @media (max-width: 768px) {
+            .footer-icon {
+                right: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="assets/logo.svg" alt="Logo" style="width: 170px; height: 40px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Download</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Documentation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Resources</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-content">
+        <div class="container my-5">
+            <h1>Respond to your user's browser features.</h1>
+            <p>Modernizr tells you what HTML, CSS and JavaScript features the user's browser has to offer.</p>
+            <div class="my-4">
+                <a href="#" class="btn btn-danger">Add your defects</a>
+                <a href="#" class="btn btn-secondary">Development Build</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>What is Modernizr?</h3>
+                    <p>It's a collection of superfast tests or "detects" as we like to call them which run as your web page
+                        loads, then you can use the results to tailor the experience to the user.</p>
+                    <h3>Why do I need it?</h3>
+                    <p>All web developers come up against differences between browsers and devices. That's largely due to
+                        different feature sets: the latest versions of the popular browsers can do some awesome things which
+                        older browsers can't but we still have to support the older ones.</p>
+                    <p>Modernizr makes it easy to deliver tiered experiences: make use of the latest and greatest features
+                        in browsers which support them, without leaving less fortunate users high and dry.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6 ourcard firstcard">
+                            <h3>Getting Started</h3>
+                            <hr>
+                            <ul>
+                                <li>Modernizr explained</li>
+                                <li>What is feature detection?</li>
+                                <li>Using Modernizr with JavaScript</li>
+                                <li>Using Modernizr with CSS</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-5 ourcard">
+                            <h3>Latest News</h3>
+                            <hr>
+                            <ul>
+                                <li>Modernizr 3.5.0</li>
+                                <li>Modernizr 3.4.0</li>
+                                <li>Modernizr 3.3.1</li>
+                                <li>Modernizr 3.3.0</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 ourcard">
+                            <h3>Talk to Us</h3>
+                            <hr>
+                            <ul>
+                                <li>Twitter</li>
+                                <li>Stack Overflow</li>
+                                <li>GitHub</li>
+                                <li>Contact</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid bg-danger text-white py-3 position-relative">
+        <div class="footer-content">
+            <p>Made with love by Faruk, Paul, Alex, Ryan, Patrick, Stu and Richard</p>
+            <p>Subscribe to the feed, follow on Twitter, or Contact us. Donations are cool, too</p>
+        </div>
+        <div class="footer-icon">
+            <img src="assets/github.svg" alt="GitHub" style="width: 40px; height: 40px;">
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
