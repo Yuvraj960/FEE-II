@@ -1,0 +1,6 @@
+[submodule "Projects/Project1"]
+	path = Projects/Project1
+	url = https://github.com/Yuvraj960/HackMate.git
+[submodule "Projects/Project2"]
+	path = Projects/Project2
+	url = https://github.com/Yuvraj960/HackMate_React.git
